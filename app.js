@@ -13,4 +13,6 @@ app.use(express.json())
 app.use('/v1', Mx100Route)
 app.use('/v1', Mx5Route)
 
+console.log('holas');
+
 module.exports = app
