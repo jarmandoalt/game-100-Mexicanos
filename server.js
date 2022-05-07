@@ -8,8 +8,8 @@ const { appConfig, dbConfig } = require ('./config')
 async function initApp (appConfig, dbConfig){
     try {
         await connectdb(dbConfig)
-        app.listen(5000, () => {
-            console.log(`server on port 5000`);
+        app.listen(5050, () => {
+            console.log(`server on port 5050`);
         })
     } catch (error) {
         console.error(error)

@@ -6,4 +6,3 @@ api.post('/q100', addQ100)
 api.get('/q100', getQ100)
 
 module.exports = api
-
